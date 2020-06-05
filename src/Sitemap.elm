@@ -19,6 +19,7 @@ Here's another reference with more best practices: <https://support.google.com/w
 -}
 
 import Dict
+import Path
 import Xml
 import Xml.Encode exposing (..)
 
@@ -56,7 +57,7 @@ urlXml siteUrl entry =
     object
         [ ( "url"
           , Dict.empty
-          , [ string (siteUrl ++ entry.path)
+          , [ string (Path.join [ siteUrl, entry.path ])
                 |> keyValue "loc"
                 |> Just
             , entry.lastMod
