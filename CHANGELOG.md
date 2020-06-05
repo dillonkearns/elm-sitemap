@@ -15,5 +15,4 @@ and this project adheres to
 ### Fixed
 
 - The `siteUrl`, and entries' `path`s are now correctly joined together with any
-  permutation of trailing and leading slashes. asdf asdf asdf asf qwer qwer
-  asdlfkj aksdfj lkasdjf lkj asdf.
+  permutation of trailing and leading slashes.
