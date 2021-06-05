@@ -10,6 +10,14 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.2] - 2021-06-04
+
+### Changed
+
+- Updated
+  <https://package.elm-lang.org/packages/billstclair/elm-xml-eeue56/latest>
+  dependency.
+
 ## [1.0.1] - 2020-06-04
 
 ### Fixed
